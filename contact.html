@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Tailwind Css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- remix cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Header Area Start -->
+  <header>
+    <div class="header-wrapper">
+      <div class="logo">
+        <h3>WANDO</h3>
+        <div class="span-area">
+          <span>Mon - Sun</span> <br>
+          <span>08:00 - 02:00</span>
+        </div>
+      </div>
+      <!-- navigation area -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="btn-area">
+        <h4><i class="ri-phone-line"></i> +1 435 657 5642</h4>
+
+        <a href="menu.html"><button class="btn-1">Book A Table</button></a>
+
+<!-- Sidebar Area Start -->
+
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </div>
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+  <!-- Sidebar Area End -->
+      </div>
+    </div>
+  <!-- Hero Area  Start-->
+    <div class="hero">
+      <div class="wrapper hero-wrapper">
+        <h1>Savor the Artistry <br> of Fine Dining</h1>
+        <p>At Wando, we redefine dining with a symphony of tastes. <br> From sumptuous soups to delicate sushi, each
+          dish is a <br>
+          masterpiece. Join us in a setting of refined elegance, <br> where every bite is an enchanting journey through
+          <br> culinary
+          refinement.</p>
+        <div class="hero-btn">
+          <button class="btn-2">Book A Table</button>
+          <button class="btn-3">See Our Menu</button>
+        </div>
+      </div>
+        <!-- Hero Area  End-->
+    </div>
+  </header>
+  <!-- Header Area End -->
+
+      <!-- Form Area Start-->
+      
+      <section>
+        <div class="background">
+      
+          <form class="centered-form">
+            <h2>Reserve Your Table</h2>
+            <input type="text" id="name" name="name" required placeholder="Full Name">
+      
+      
+            <input type="email" id="email" name="email" required placeholder="Email">
+      
+            <textarea id="info" name="info" required placeholder="Additional Info"></textarea>
+      
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      
+      </section>
+      <!-- Form Area End-->
+
+
+
+          <!-- Contact Area Start -->
+          <section>
+            <div class="wrapper">
+              <div class="contact-information">
+                <h3>Contacts</h3>
+              </div>
+              <div class="contact-about">
+                <div class="contact-info">
+                  <p>Phone</p>
+                  <h4>+1 435 657 5642</h4> <br>
+                  <p>Email</p>
+                  <h4>wando@gmail.com</h4> <br>
+                  <p>Address</p>
+                  <h4>NYC, Paterson Ave 14/3</h4> <br>
+                  <p>Working Hours</p>
+                  <h4>Monday to Sunday</h4>
+                  <span>8:00 - 02:00</span>
+                </div>
+                <div class="contact-img">
+                  <img src="img/location.png" alt="">
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Contact Area End -->
+          <!-- Footer Area Start -->
+          <footer>
+            <div class="footer-wrapper">
+              <div class="logo">
+                <h3>WANDO</h3>
+                <div class="span-area">
+                  <span>Mon - Sun</span> <br>
+                  <span>08:00 - 02:00</span>
+                </div>
+              </div>
+              <!-- navigation area -->
+              <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="">Menu</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+              <div class="btn-area">
+                <h4><i class="ri-phone-line"></i> +1 435 657 5642</h4>
+          
+                <button class="btn-1">Book A Table</button>
+              </div>
+            </div>
+            <!-- Social Area Start -->
+              <div class="wrapper social-area">
+                <div class="social-platfrom">
+                  <i class="ri-instagram-line"></i>
+                  <i class="ri-tiktok-fill"></i>
+                  <i class="ri-youtube-line"></i>
+                </div>
+              </div>
+              <!-- Social Area Start -->
+
+              <!-- Copyright Area Start -->
+              <div class="copyright-area">
+                <p>Wando ©all rights reserved</p>
+              </div>
+              <!-- Copyright Area End -->
+          </footer>
+          <!-- Footer Area End -->
+            <script src="app.js"></script>
+</body>
+</html>
